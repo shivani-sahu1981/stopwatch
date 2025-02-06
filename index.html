@@ -6,6 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="stopwatch" id="stopwatch">
+        <div class="timerdisplay">00:00:00</div>
+    </div>
+    <div class="buttons">
+        <button onclick="Starttimer()" id="start">Start</button>
+        <button onclick="stoptimer()" id="stop">Stop</button>
+        <button onclick="resettimer()" id="reset">Reset</button>
+    </div>
+
+    <script>
+        let timer,seconds = 0;
+        const stopwatch = document.getElementById('stopwatch');
+
+    </script>
 </body>
 </html>
